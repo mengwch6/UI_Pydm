@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>260</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>260</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="verticalFrame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>260</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>260</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>260</width>
+     <height>360</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(3, 32, 95)k; border-radius: 20px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,1,2,2,1,1,1,1,1">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="PyDMLabel" name="PyDMLabel">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;
+color: rgb(255, 255, 255);
+border: 0px solid black;
+background-color: rgb(21, 65, 185);
+font: 75 20pt &quot;Times New Roman&quot;;
+margin-top:1px;
+
+
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision">
+         <number>0</number>
+        </property>
+        <property name="showUnits">
+         <bool>false</bool>
+        </property>
+        <property name="precisionFromPV">
+         <bool>true</bool>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.DESC</string>
+        </property>
+        <property name="enableRichText">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_egu_2" stretch="2,3,6,1">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_egu_2">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>EGU</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_egu_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMLabel" name="PyDMLabel_4">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font-size: 13px;
+    font-family: &quot;Microsoft YaHei&quot;, sans-serif;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision">
+         <number>0</number>
+        </property>
+        <property name="showUnits">
+         <bool>false</bool>
+        </property>
+        <property name="precisionFromPV">
+         <bool>true</bool>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.EGU</string>
+        </property>
+        <property name="enableRichText">
+         <bool>true</bool>
+        </property>
+        <property name="displayFormat">
+         <enum>PyDMLabel::String</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_readback_2" stretch="2,3,6,1">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_readback_2">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Readback</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_readback_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMLabel" name="PyDMLabel_5">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;font-size: 13px;
+font-family: &quot;Microsoft YaHei&quot;, sans-serif;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision">
+         <number>0</number>
+        </property>
+        <property name="showUnits">
+         <bool>false</bool>
+        </property>
+        <property name="precisionFromPV">
+         <bool>true</bool>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.RBV</string>
+        </property>
+        <property name="enableRichText">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_11">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_moveabs_2" stretch="1,1,3,1">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_moveabs_2">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>MoveAbs</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_moveabs_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMLineEdit" name="PyDMLineEdit_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    /* 基础样式 */
+    background-color: #f0f8ff;  /* 浅蓝色背景 */
+    border: 1px solid #b0d0e8;  /* 浅蓝色边框 */
+    border-radius: 6px;         /* 圆角 */
+    color: #2c3e50;             /* 深蓝色文字 */
+    font-size: 13px;
+    font-family: &quot;Microsoft YaHei&quot;, sans-serif;
+    
+    /* 选中文本样式 */
+    selection-background-color: #4da6ff;  /* 选中文本背景色 */
+    selection-color: white;               /* 选中文本颜色 */
+}
+
+/* 鼠标悬停状态 */
+QLineEdit:hover {
+    border: 1px solid #80c0ff;  /* 悬停时边框变亮 */
+    background-color: #e6f2ff;  /* 悬停时背景稍微加深 */
+}
+
+/* 获得焦点状态 */
+QLineEdit:focus {
+    border: 1px solid #4da6ff;  /* 焦点状态使用更亮的蓝色 */
+    background-color: #f7fbff;  /* 焦点状态背景色 */
+}
+
+/* 禁用状态 */
+QLineEdit:disabled {
+    background-color: #e6e6e6;  /* 灰色背景 */
+    color: #999999;            /* 灰色文字 */
+    border: 1px solid #cccccc; /* 灰色边框 */
+}
+
+/* 只读状态 */
+QLineEdit:read-only {
+    background-color: #f5f5f5;  /* 浅灰色背景 */
+    color: #666666;            /* 深灰色文字 */
+}</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision">
+         <number>0</number>
+        </property>
+        <property name="showUnits">
+         <bool>false</bool>
+        </property>
+        <property name="precisionFromPV">
+         <bool>true</bool>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="monitorDisp">
+         <bool>false</bool>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.VAL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_12">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_tweak_2" stretch="2,1,1,6,1,1">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>23</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_tweak_2">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Tweak</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_tweak_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMPushButton" name="PyDMPushButton_3">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    /* 尺寸与形状 */
+    border-radius: 10px;
+ 
+    font: bold 23px ;
+    color: white;  /* 更深的棕色文字，提高可读性 */
+    border: 1px solid #e67e22;  /* 鲜明的橙色边框 */
+    
+    /* 鲜明橙色渐变背景 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #f39c12, stop: 1 #e67e22);
+}
+
+QPushButton:hover {
+    /* 悬停时变为更明亮的橙色 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #f1c40f, stop: 1 #f39c12);
+    border: 1px solid #d35400;  /* 更深的橙色边框 */
+}
+
+QPushButton:pressed {
+    /* 按下时变为深橙色 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #e67e22, stop: 1 #d35400);
+    border-style: inset;  /* 内凹效果，增强按下感 */
+}
+
+QPushButton:disabled {
+    /* 禁用状态 */
+    background: #fdebd0;
+   color: rgb(255, 255, 255);
+    border: 1px solid #fad7a0;
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>false</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="monitorDisp">
+         <bool>false</bool>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.VAL</string>
+        </property>
+        <property name="PyDMIcon">
+         <string/>
+        </property>
+        <property name="passwordProtected">
+         <bool>false</bool>
+        </property>
+        <property name="password">
+         <string/>
+        </property>
+        <property name="protectedPassword">
+         <string/>
+        </property>
+        <property name="showConfirmDialog">
+         <bool>false</bool>
+        </property>
+        <property name="confirmMessage">
+         <string>Are you sure you want to proceed?</string>
+        </property>
+        <property name="pressValue">
+         <string>-10</string>
+        </property>
+        <property name="releaseValue">
+         <string>None</string>
+        </property>
+        <property name="relativeChange">
+         <bool>true</bool>
+        </property>
+        <property name="writeWhenRelease">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    /* 基础样式 */
+    background-color: #f0f8ff;  /* 浅蓝色背景 */
+    border: 1px solid #b0d0e8;  /* 浅蓝色边框 */
+    border-radius: 6px;         /* 圆角 */
+    color: #2c3e50;             /* 深蓝色文字 */
+    font-size: 13px;
+    font-family: &quot;Microsoft YaHei&quot;, sans-serif;
+    
+    /* 选中文本样式 */
+    selection-background-color: #4da6ff;  /* 选中文本背景色 */
+    selection-color: white;               /* 选中文本颜色 */
+}
+
+/* 鼠标悬停状态 */
+QLineEdit:hover {
+    border: 1px solid #80c0ff;  /* 悬停时边框变亮 */
+    background-color: #e6f2ff;  /* 悬停时背景稍微加深 */
+}
+
+/* 获得焦点状态 */
+QLineEdit:focus {
+    border: 1px solid #4da6ff;  /* 焦点状态使用更亮的蓝色 */
+    background-color: #f7fbff;  /* 焦点状态背景色 */
+}
+
+/* 禁用状态 */
+QLineEdit:disabled {
+    background-color: #e6e6e6;  /* 灰色背景 */
+    color: #999999;            /* 灰色文字 */
+    border: 1px solid #cccccc; /* 灰色边框 */
+}
+
+/* 只读状态 */
+QLineEdit:read-only {
+    background-color: #f5f5f5;  /* 浅灰色背景 */
+    color: #666666;            /* 深灰色文字 */
+}</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMPushButton" name="PyDMPushButton_4">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>30</width>
+          <height>23</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    /* 尺寸与形状 */
+    border-radius: 10px;
+ 
+    font: bold 23px ;
+    color: white;  /* 更深的棕色文字，提高可读性 */
+    border: 1px solid #e67e22;  /* 鲜明的橙色边框 */
+    
+    /* 鲜明橙色渐变背景 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #f39c12, stop: 1 #e67e22);
+}
+
+QPushButton:hover {
+    /* 悬停时变为更明亮的橙色 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #f1c40f, stop: 1 #f39c12);
+    border: 1px solid #d35400;  /* 更深的橙色边框 */
+}
+
+QPushButton:pressed {
+    /* 按下时变为深橙色 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #e67e22, stop: 1 #d35400);
+    border-style: inset;  /* 内凹效果，增强按下感 */
+}
+
+QPushButton:disabled {
+    /* 禁用状态 */
+    background: #fdebd0;
+   color: rgb(255, 255, 255);
+    border: 1px solid #fad7a0;
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>false</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="monitorDisp">
+         <bool>false</bool>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.VAL</string>
+        </property>
+        <property name="PyDMIcon">
+         <string/>
+        </property>
+        <property name="passwordProtected">
+         <bool>false</bool>
+        </property>
+        <property name="password">
+         <string/>
+        </property>
+        <property name="protectedPassword">
+         <string/>
+        </property>
+        <property name="showConfirmDialog">
+         <bool>false</bool>
+        </property>
+        <property name="confirmMessage">
+         <string>Are you sure you want to proceed?</string>
+        </property>
+        <property name="pressValue">
+         <string>10</string>
+        </property>
+        <property name="releaseValue">
+         <string>None</string>
+        </property>
+        <property name="relativeChange">
+         <bool>true</bool>
+        </property>
+        <property name="writeWhenRelease">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_13">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_softLminus" stretch="1,1,3,1">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_softLminus">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>SoftL-</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_softLminus">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMLabel" name="PyDMLabel_6">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::RichText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision">
+         <number>0</number>
+        </property>
+        <property name="showUnits">
+         <bool>false</bool>
+        </property>
+        <property name="precisionFromPV">
+         <bool>true</bool>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.LLM</string>
+        </property>
+        <property name="enableRichText">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_softLplus" stretch="1,1,3,1">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_softLplus">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>SoftL+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_softLplus">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMLabel" name="PyDMLabel_8">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::RichText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="precision">
+         <number>0</number>
+        </property>
+        <property name="showUnits">
+         <bool>false</bool>
+        </property>
+        <property name="precisionFromPV">
+         <bool>true</bool>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.HLM</string>
+        </property>
+        <property name="enableRichText">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_homing" stretch="1,1,1,1,1,1">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_homing">
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Homing</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_homing">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMPushButton" name="PyDMPushButton_6">
+        <property name="minimumSize">
+         <size>
+          <width>49</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>49</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    /* 尺寸与形状 */
+    border-radius: 8px; /* 适度的圆角，现代感 */
+    border: none; /* 移除默认边框，更简洁 */
+
+    /* 渐变色背景 - 浅蓝色系核心 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #6ecbf5, stop: 1 #3aa9e0); /* 从上到下，浅蓝到稍深的蓝 */
+    
+    /* 文字样式 */
+    color: white;
+    font-family: &quot;Microsoft YaHei&quot;, &quot;Segoe UI&quot;, sans-serif; /* 使用通用且美观的字体 */
+    font-size: 9px;
+    font-weight: bold;
+}
+
+/* 鼠标悬停状态 - 提供反馈 */
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #7ed4ff, stop: 1 #4ab8f0);
+}
+
+/* 按钮按下状态 - 模拟点击效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #2a96cc, stop: 1 #3aa9e0);
+    padding-top: 13px; /* 微调内边距，模拟按下下沉感 */
+    padding-bottom: 11px;
+}
+
+/* 按钮禁用状态 */
+QPushButton:disabled {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #c0e6f7, stop: 1 #a0d0e8);
+    color: #eeeeee;
+}</string>
+        </property>
+        <property name="text">
+         <string>HomeR</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>false</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="monitorDisp">
+         <bool>false</bool>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.HOMR</string>
+        </property>
+        <property name="PyDMIcon">
+         <string/>
+        </property>
+        <property name="passwordProtected">
+         <bool>false</bool>
+        </property>
+        <property name="password">
+         <string/>
+        </property>
+        <property name="protectedPassword">
+         <string/>
+        </property>
+        <property name="showConfirmDialog">
+         <bool>false</bool>
+        </property>
+        <property name="confirmMessage">
+         <string>Are you sure you want to proceed?</string>
+        </property>
+        <property name="pressValue">
+         <string>1</string>
+        </property>
+        <property name="releaseValue">
+         <string>None</string>
+        </property>
+        <property name="relativeChange">
+         <bool>false</bool>
+        </property>
+        <property name="writeWhenRelease">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMPushButton" name="PyDMPushButton_7">
+        <property name="minimumSize">
+         <size>
+          <width>49</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    /* 尺寸与形状 */
+    border-radius: 8px; /* 适度的圆角，现代感 */
+    border: none; /* 移除默认边框，更简洁 */
+
+    /* 渐变色背景 - 浅蓝色系核心 */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #6ecbf5, stop: 1 #3aa9e0); /* 从上到下，浅蓝到稍深的蓝 */
+    
+    /* 文字样式 */
+    color: white;
+    font-family: &quot;Microsoft YaHei&quot;, &quot;Segoe UI&quot;, sans-serif; /* 使用通用且美观的字体 */
+    font-size: 9px;
+    font-weight: bold;
+}
+
+/* 鼠标悬停状态 - 提供反馈 */
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #7ed4ff, stop: 1 #4ab8f0);
+}
+
+/* 按钮按下状态 - 模拟点击效果 */
+QPushButton:pressed {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #2a96cc, stop: 1 #3aa9e0);
+    padding-top: 13px; /* 微调内边距，模拟按下下沉感 */
+    padding-bottom: 11px;
+}
+
+/* 按钮禁用状态 */
+QPushButton:disabled {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #c0e6f7, stop: 1 #a0d0e8);
+    color: #eeeeee;
+}</string>
+        </property>
+        <property name="text">
+         <string>HomeF</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>false</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="monitorDisp">
+         <bool>false</bool>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.HOMF</string>
+        </property>
+        <property name="PyDMIcon">
+         <string/>
+        </property>
+        <property name="passwordProtected">
+         <bool>false</bool>
+        </property>
+        <property name="password">
+         <string/>
+        </property>
+        <property name="protectedPassword">
+         <string/>
+        </property>
+        <property name="showConfirmDialog">
+         <bool>false</bool>
+        </property>
+        <property name="confirmMessage">
+         <string>Are you sure you want to proceed?</string>
+        </property>
+        <property name="pressValue">
+         <string>1</string>
+        </property>
+        <property name="releaseValue">
+         <string>None</string>
+        </property>
+        <property name="relativeChange">
+         <bool>false</bool>
+        </property>
+        <property name="writeWhenRelease">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_14">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_indicators" stretch="2,2,2,2">
+      <item>
+       <widget class="PyDMByteIndicator" name="PyDMByteIndicator">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.LLS</string>
+        </property>
+        <property name="onColor">
+         <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="showLabels">
+         <bool>true</bool>
+        </property>
+        <property name="bigEndian">
+         <bool>false</bool>
+        </property>
+        <property name="circles">
+         <bool>true</bool>
+        </property>
+        <property name="numBits">
+         <number>1</number>
+        </property>
+        <property name="shift">
+         <number>0</number>
+        </property>
+        <property name="labels">
+         <stringlist>
+          <string>-Lim</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>true</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.MOVN</string>
+        </property>
+        <property name="showLabels">
+         <bool>true</bool>
+        </property>
+        <property name="bigEndian">
+         <bool>false</bool>
+        </property>
+        <property name="circles">
+         <bool>true</bool>
+        </property>
+        <property name="numBits">
+         <number>1</number>
+        </property>
+        <property name="shift">
+         <number>0</number>
+        </property>
+        <property name="labels">
+         <stringlist>
+          <string>Movn</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.ATHM</string>
+        </property>
+        <property name="circles">
+         <bool>true</bool>
+        </property>
+        <property name="labels">
+         <stringlist>
+          <string>Home</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMByteIndicator" name="PyDMByteIndicator_4">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:0px  solid black;
+font: 75 9pt &quot;Times New Roman&quot;;</string>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.HLS</string>
+        </property>
+        <property name="onColor">
+         <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="circles">
+         <bool>true</bool>
+        </property>
+        <property name="labels">
+         <stringlist>
+          <string>+Lim</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_buttons_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_16">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="PyDMPushButton" name="PyDMPushButton_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 0, 0);
+font: 75 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+border:0px  solid black;</string>
+        </property>
+        <property name="text">
+         <string>Stop</string>
+        </property>
+        <property name="alarmSensitiveContent">
+         <bool>false</bool>
+        </property>
+        <property name="alarmSensitiveBorder">
+         <bool>false</bool>
+        </property>
+        <property name="PyDMToolTip">
+         <string/>
+        </property>
+        <property name="monitorDisp">
+         <bool>false</bool>
+        </property>
+        <property name="channel">
+         <string>ca://${MOTOR}.STOP</string>
+        </property>
+        <property name="PyDMIcon">
+         <string/>
+        </property>
+        <property name="PyDMIconColor">
+         <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="passwordProtected">
+         <bool>false</bool>
+        </property>
+        <property name="password">
+         <string/>
+        </property>
+        <property name="protectedPassword">
+         <string/>
+        </property>
+        <property name="showConfirmDialog">
+         <bool>false</bool>
+        </property>
+        <property name="confirmMessage">
+         <string>Are you sure you want to proceed?</string>
+        </property>
+        <property name="pressValue">
+         <string>1</string>
+        </property>
+        <property name="releaseValue">
+         <string>None</string>
+        </property>
+        <property name="relativeChange">
+         <bool>false</bool>
+        </property>
+        <property name="writeWhenRelease">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_buttons_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_more_2">
+        <property name="minimumSize">
+         <size>
+          <width>30</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>36</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(159, 159, 159); color: white; font-weight: bold;
+border:0px  solid black;</string>
+        </property>
+        <property name="text">
+         <string>More</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMByteIndicator</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.byte</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>pydm.widgets.line_edit</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMPushButton</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.pushbutton</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
